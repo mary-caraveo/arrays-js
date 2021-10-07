@@ -103,3 +103,5 @@ const search2 = (query) => {
 };
 
 console.log(search2("Vazquez"));
+
+//filter retorna un array de elementos que cumplan con la condición.
