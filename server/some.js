@@ -84,4 +84,4 @@ const isOverlap = (newDate) => {
 };
 console.log('isOverlap', isOverlap(newAppointment));
 
-//some, solo imprime true o false
+//some, solo imprime true o false si al menos cumple con uno.

@@ -1,4 +1,4 @@
-// Opción 1
+// Ejemplo con for
 const letters = ['a', 'b', 'c'];
 
 const newArray = [];
@@ -9,7 +9,7 @@ for (let index = 0; index < letters.length; index++) {
 console.log('original', letters);
 console.log('new', newArray);
 
-//Opción 2
+//Ejemplo con map
 const letters = ['a', 'b', 'c'];
 const newArray = letters.map(item => item + '++')
 

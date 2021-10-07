@@ -1,10 +1,10 @@
 const letters = ['a', 'b', 'c'];
 
-//Opción 1
+//Ejemplo con for
 for (let index = 0; index < letters.length; index++) {
     const element = letters[index];
     console.log('for',element);
 }
 
-//Opción 2
+//Ejemplo con forEach
 letters.forEach(item => console.log('forEach', item))
