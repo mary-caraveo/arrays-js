@@ -13,3 +13,5 @@ console.log(sum);
 const rta = totals.reduce((sum, element) => sum + element, 0);
 
 console.log('rta', rta);
+
+//reduce, agarra un array y lo reduce a un solo valor.
