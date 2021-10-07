@@ -23,3 +23,5 @@ const urlFinal = title.split(' ').join('-').toLocaleLowerCase();
 console.log('', urlFinal);
 
 //join, sirve para unificar todo un array.
+//split, separa los elementos con un espacio y los une con join (-).
+//toLocaleLowerCase, devuelve todo en minusculas.
