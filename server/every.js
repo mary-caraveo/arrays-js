@@ -15,4 +15,27 @@ console.log('for', rta);
 const rta2 = numbers.every((item) => item <= 40);
 console.log('every', rta2);
 
+//Reto every
+const team = [
+    {
+        name: "Nicolas",
+        age: 12,
+        },
+        {
+        name: "Andrea",
+        age: 8,
+        },
+        {
+        name: "Zulema",
+        age: 2,
+        },
+        {
+        name: "Santiago",
+        age: 7,
+        },
+    ];
+
+const allAreYounger = team.every(item => item.age < 18);
+console.log(allAreYounger);
+
 //Every imprime true o false si todos cumplen con la condición.
