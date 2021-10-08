@@ -8,3 +8,5 @@ for (let index = 0; index < letters.length; index++) {
 
 //Ejemplo con forEach
 letters.forEach(item => console.log('forEach', item))
+
+//forech, nos sirve para realizar un recorrido de los elementos de un array
