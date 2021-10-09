@@ -7,11 +7,13 @@
 * **Map**
   * El método **map()**, realiza la transformación de cada elemento en un nuevo array.
 * **Map Reloaded**
+  * Cuando trabajamos con objetos, **map()** y retornamos el mismo objeto, estamos copiando la referencia en memoria que tiene el objeto original que le aplicamos el **map()**. Esto provoca que como estamos modificando la referencia en memoria, el array original también sea modificado. Es decir, por más que **map()** sea inmutable en este punto estamos copiando la referencia en memoria y por eso hace el cambio en el original. Para evitarlo y evitar la referencia en memoria poder realizar una copia, utilizamos el spread operator de ES6, donde generamos un nuevo objeto con los valores del objeto original y luego agregamos el nuevo valor que nos interesa.
 * **Filter**
   * El método **filter()**, retorna un nuevo array de elementos que cumplan con la condición.
 * **Reduce**
   * El método **reduce()**, toma un array y lo reduce a un solo valor.
 * **Reduce Reloaded**
+  * Devuelve un solo objeto, aunque contenga “muchos elementos” sigue siendo un solo elemento de tipo objeto, y es por eso que se dice que **reduce()** solo devuelve un único valor.
 
 ## Métodos en JavaScript
 
